@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.calcBody {
+  min-width: 300px;
+  width: 50vw;
+  max-width: 600px;
+  height: fit-content;
+  background-color: rgb(46, 46, 46);
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.display {
+  color: white;
+  background-color: black;
+  border-radius: 20px 20px 0 0;
+  font-weight: 100;
+  min-height: 200px;
+  padding: 1.5pc;
+  font-size: 49px;
+  overflow-wrap: break-word;
+  align-items: center;
+  width: 100%;
+}
+
+.display > h3 {
+  text-align: end;
+  align-self: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 2s00;
+  font-size: 30px;
+}
+
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid grey;
+  width: 100%;
+}
+
+button {
+  all: unset;
+  width: 25%;
+  min-width: 70px;
+  min-height: 80px;
+  padding: 5w;
+  text-align: center;
+}
+
+button:hover {
+  filter: brightness(80%);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1pc;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 1pc;
+  padding: 2pc;
+}
